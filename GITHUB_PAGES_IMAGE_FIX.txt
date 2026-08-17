@@ -1,0 +1,8 @@
+FoodRush - GitHub Pages image fix
+
+Default food, category, restaurant and hero images are bundled inside
+assets/images. The site no longer depends on Unsplash for its default images.
+
+Keep the assets folder beside the HTML files when deploying to GitHub Pages.
+Older localStorage records containing Unsplash IDs are handled with local
+fallback images automatically.
